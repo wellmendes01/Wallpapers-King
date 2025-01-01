@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Libre Baskerville', sans-serif;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background-color: rgb(150, 226, 78);
+    border-bottom: solid rgb(95, 180, 9) 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.header > div {
+    letter-spacing: 2px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    font-family: "Bebas Neue", serif;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Montserrat", serif;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.best {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+
+.best > div {
+    flex: 1 1 250px;
+    margin: 10px;
+}
+
+.footer {
+
+    background-color: rgb(150, 226, 78);
+    border-top: solid rgb(95, 180, 9) 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .menu a {
+        display: none;
+        padding: 1px;
+        letter-spacing: 2px;
+    }
+    .header {
+        background-color: rgb(150, 226, 78);
+        border-bottom: solid rgb(95, 180, 9) 1px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+    .footer {
+        font-size: 14px;
+        background-color: rgb(150, 226, 78);
+        border-top: solid rgb(95, 180, 9) 1px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+    }
+    
+
+}
