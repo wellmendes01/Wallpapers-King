@@ -115,7 +115,7 @@ p {
     }
 
     h1 {
-        font-size: 1.2em;
+        font-size: 1em;
         color: rgb(173, 173, 11);
     }
     .footer {
@@ -127,9 +127,10 @@ p {
         justify-content: center;
         align-items: center;
         padding: 10px;
+        color: rgb(173, 173, 11);
     }
     p {
-        font-size: 14px;
+        font-size: 13px;
         color: rgb(173, 173, 11);
     }
     body {
