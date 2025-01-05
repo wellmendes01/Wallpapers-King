@@ -4,8 +4,7 @@ body {
     list-style: none;
     font-size: 1.2rem;
     font-family: 'Libre Baskerville', sans-serif;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-image: linear-gradient(45deg, #a1b6ac 0%, #e4e593 100%);
 }
 
 
@@ -26,8 +25,8 @@ img {
 }
 
 .header {
-    background-color: rgb(150, 226, 78);
-    border-bottom: solid rgb(95, 180, 9) 1px;
+    background-color: rgb(73, 97, 51);
+    border-bottom: solid rgb(92, 177, 7) 2px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -38,6 +37,7 @@ img {
 
 .header > div {
     letter-spacing: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .menu {
@@ -60,7 +60,7 @@ h1 {
 
 p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Montserrat", serif;
 }
 
@@ -90,14 +90,16 @@ p {
 
 .footer {
 
-    background-color: rgb(150, 226, 78);
-    border-top: solid rgb(95, 180, 9) 1px;
+    background-color:rgb(73, 97, 51);
+    border-top: solid rgb(92, 177, 7) 2px;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
+
 @media only screen and (max-width: 650px) {
     .menu a {
         display: none;
@@ -105,8 +107,8 @@ p {
         letter-spacing: 2px;
     }
     .header {
-        background-color: rgb(58, 102, 24);
-        border-bottom: solid rgb(95, 180, 9) 1px;
+        background-color:rgb(73, 97, 51);
+        border-top: solid rgb(92, 177, 7) 2px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -116,12 +118,12 @@ p {
 
     h1 {
         font-size: 1em;
-        color: rgb(173, 173, 11);
+        color: rgb(19, 19, 10);
     }
     .footer {
         font-size: 14px;
-        background-color: rgb(58, 102, 24);
-        border-top: solid rgb(95, 180, 9) 1px;
+        background-color:rgb(73, 97, 51);
+        border-top: solid rgb(92, 177, 7) 2px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -131,8 +133,8 @@ p {
     }
     p {
         font-size: 13px;
-        color: rgb(173, 173, 11);
-        padding: 10px;
+        color: rgb(22, 22, 8);
+        padding: 5px;
     }
     body {
         margin: 0;
@@ -140,11 +142,11 @@ p {
         list-style: none;
         font-size: 1.2rem;
         font-family: 'Libre Baskerville', sans-serif;
-        background-image: linear-gradient(45deg, #023b1e 0%, #1a1a05 100%);
+        background-image: linear-gradient(45deg, #a1b6ac 0%, #e4e593 100%);
     }
     }
 
-@media only screen and (max-width: 430px) {
+    @media only screen and (max-width: 430px) {
         p {
             font-size: 1em;
             padding: 20px;
